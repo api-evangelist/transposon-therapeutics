@@ -1,8 +1,30 @@
 aid: transposon-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transposon-therapeutics.png
 name: Transposon Therapeutics
-description: Transposon Therapeutics is a company surfaced as a portfolio company of canaan-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Transposon Therapeutics, Inc. is a clinical-stage biopharmaceutical company
+  developing transformational therapies for neurodegenerative and aging-related
+  diseases driven by LINE-1 retrotransposon activity. Its lead asset, TPN-101
+  (censavudine), is a potent oral inhibitor of LINE-1 reverse transcriptase in
+  late-stage development for progressive supranuclear palsy (PSP), amyotrophic
+  lateral sclerosis (ALS) / frontotemporal dementia (FTD), and Alzheimer's
+  disease. The pipeline also includes follow-on novel nucleoside reverse
+  transcriptase inhibitors (NRTIs) and Protein Kinase R inhibitors (PKRi)
+  targeting pathways activated by LINE-1 and implicated in cognitive impairment.
+  Surfaced as a portfolio company of Canaan Partners and added to the API
+  Evangelist network; enrichment found a corporate marketing website only and no
+  public API, developer, or machine-readable surface.
 url: https://raw.githubusercontent.com/api-evangelist/transposon-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +34,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Neurodegeneration
+- Clinical Stage
+- Drug Development
+- Life Sciences
+- Neuroscience
 apis: []
+common:
+- type: DomainSecurity
+  url: security/transposon-therapeutics-domain-security.yml
+- type: Website
+  url: https://transposonrx.com
+- type: PrivacyPolicy
+  url: https://transposonrx.com/privacy.html
+- type: TermsOfService
+  url: https://transposonrx.com/termsofuse.html
+- type: Support
+  url: https://transposonrx.com/connect.html
+- type: News
+  url: https://transposonrx.com/news.html
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
